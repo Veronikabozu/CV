@@ -8,21 +8,35 @@
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
-	background-color: #f8f8fc;
+	background-color: #5e503f;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #d7ba99 !important;
 }
 
+.language-level .language-progress {
+	background-color: #7bb3ec !important;
+}
+.language-level {
+	background-color: #ede6d9;
+}
+
+.language-level {
+	border: 2px solid #2d1e17 !important;
+}
+.custom-heading {
+font-family: 'Arial', sans-serif; /* Change the font */
+color: #171564; /* Change the color */
+}
 .resume-main {
-	background-color: #fffefc;
+	background-color:#f5f5dc;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #cbb799;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +50,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #f99c5a;
 }
 
 .biography-details li, .skill-list li {
@@ -48,4 +62,8 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+.custom-heading {
+    font-family: 'sans-serif'; /* Change the font */
+    color: #7d705c; /* Change the color */
 }
